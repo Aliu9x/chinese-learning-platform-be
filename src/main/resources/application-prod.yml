@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres:5432/mes_db
+    username: admin
+    password: 123456
+
+  data:
+    redis:
+      host: redis
+      port: 6379
+
+logging:
+  level:
+    root: WARN
